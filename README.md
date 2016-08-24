@@ -1,12 +1,9 @@
-# sample
+# Initialization
+npm install -g yo
+npm install -g bower
+npm install -g grunt-cli
+npm install -g generator-angular
+yo angular [Project name]
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+# Execution
+grunt server or gulp start:server
